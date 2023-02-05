@@ -1,12 +1,9 @@
 namespace tests
 {
-    public class Tests
-    {
-        [SetUp]
-        public void Setup()
-        {
-        }
+    public class TestsCollection
 
+    {
+        
         [Test]
         public void Test1()
         {
