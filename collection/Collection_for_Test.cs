@@ -3,14 +3,14 @@ using System.Text;
 
 namespace Collections
 {
-    public class Collection<T>
+    public class Collections<T>
     {
         private const int InitialCapacity = 16;
         private T[] items;
         public int Capacity => this.items.Length;
         public int Count { get; private set; }
 
-        public Collection(params T[] items)
+        public Collections(params T[] items)
         {
             int capacity = Math.Max(2 * items.Length, InitialCapacity);
             this.items = new T[capacity];
