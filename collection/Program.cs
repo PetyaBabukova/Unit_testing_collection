@@ -11,14 +11,14 @@ namespace Collections
             Console.WriteLine("======================");
             Console.WriteLine();
 
-            Collection_for_Test<int> nums = new Collection_for_Test<int>();
+            Collection<int> nums = new Collection<int>();
             Console.WriteLine($"Empty collection: {nums}");
             Console.WriteLine("Empty collection: " + nums);
 
             Console.WriteLine($"Count: {nums.Count}. Capacity: {nums.Capacity}");
             Console.WriteLine();
 
-            nums = new Collection_for_Test<int>(new int[] { 10, 20, 30, 40, 50 });
+            nums = new Collection<int>(new int[] { 10, 20, 30, 40, 50 });
             Console.WriteLine(nums);
             Console.WriteLine($"Count: {nums.Count}. Capacity: {nums.Capacity}");
             Console.WriteLine();
